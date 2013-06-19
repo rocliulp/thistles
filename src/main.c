@@ -29,7 +29,7 @@ int main (int argc, char ** argv) {
     
     if (strcmp (cmd, CMD_EXIT) == 0) {
       break;
-    } else if (strcmp (cmd, CMD_HTTP) == 0) {
+    } else if (strcmp (cmd, CMD_HTTP_GET) == 0) {
       printf ("%s%s", CMD_PROMPT_NOT_IMPLEMENTED, STR_NEW_LINE);
     } else {
       printf ("%s%s", CMD_PROMPT_INVALID_CMD, STR_NEW_LINE);

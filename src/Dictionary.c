@@ -1,0 +1,6 @@
+/*
+ * @author Paul
+ */
+
+struct Dictionary {
+};

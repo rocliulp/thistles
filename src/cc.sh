@@ -1,1 +1,1 @@
-gcc main.c -I .
+gcc main.c -I . -g
