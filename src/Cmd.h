@@ -6,6 +6,6 @@
 #define _CMD_H_
 
 struct Cmd;
-int Cmd_Run (struct * pCmd);
+int Cmd_Run (struct Cmd * pCmd);
 
 #endif

@@ -7,4 +7,6 @@
 
 #include <Cmd.h>
 
+struct HttpGetCmd;
+
 #endif
