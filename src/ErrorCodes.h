@@ -14,9 +14,13 @@
 #define STR_NEW_LINE "\n"
 
 #define CMD_CAPACITY 1024
+
 #define CMD_PROMPT "CMD"
 #define CMD_PROMPT_INVALID_CMD "Invalid command."
 #define CMD_PROMPT_NOT_IMPLEMENTED "Command is not implemented."
+#define CMD_PROMPT_FAILED_RUNNING_CMD "Failed running command: "
+#define CMD_PROMPT_FAILED_DESTROYING_CMD "Failed destroying cmd. Please check if there is memory leak."
+
 #define CMD_EXIT "EXIT"
 #define CMD_HTTP "HTTP"
 #define CMD_HTTP_OPTIONS "OPTIONS"
@@ -32,5 +36,7 @@
 #define EC_IMPOSSIBLE_CASE 0x0001
 #define EC_FAILED_INVOKING_FUN 0x0002;
 #define EC_NOT_IMPLEMENTED 0x0003;
+#define EC_NULL_POINTER 0x0004;
+#define EC_OUT_OF_MEMORY 0X0005;
 
 #endif
