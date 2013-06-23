@@ -44,7 +44,7 @@ int main (int argc, char ** argv) {
       if (ret != EC_OK) {
         printf ("%s%s.%s", CMD_PROMPT_FAILED_RUNNING_CMD, cmd, STR_NEW_LINE);
       }
-      ret = Cmd_Delete (pCmd);
+      ret = Cmd_Delete (& pCmd);
       if (ret != EC_OK) {
         printf ("%s%s", CMD_PROMPT_FAILED_DESTROYING_CMD, STR_NEW_LINE);
       }
